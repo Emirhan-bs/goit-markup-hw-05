@@ -654,7 +654,7 @@ a {
   height: 40px;
   display: flex;
   justify-content: center;
-  font-family: "Roboro", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -665,8 +665,12 @@ a {
   border-radius: 4px;
   gap: 16px;
   padding-top: 8px;
+  align-items: center;
+  cursor: pointer;
 }
-
+.container-two .form .form-button .icon-frame {
+  margin-left: 16px;
+}
 /* Footer BİTTİ */
 
 /* Modal BÖlümü*/
