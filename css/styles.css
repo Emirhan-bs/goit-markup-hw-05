@@ -617,11 +617,11 @@ a {
 .social-media-icon-one-link-one {
   fill: #f4f4fd;
 }
-.container-2 {
+.container-two {
   padding-left: 50px;
   gap: 24px;
 }
-.container-2 .subscribe {
+.container-two .subscribe {
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -629,17 +629,14 @@ a {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.container-2 .container-2-form {
+.container-two .form {
   display: flex;
   gap: 24px;
 }
-.container-2 .container-2-form .container-2-form-label {
+.container-two .form .form-label {
   gap: 24px;
 }
-.container-2
-  .container-2-form
-  .container-2-form-label
-  .container-2-form-label-input {
+.container-two .form .form-label .form-label-input {
   width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
@@ -652,7 +649,7 @@ a {
   border-radius: 4px;
   color: #ffffff;
 }
-.container-2 .container-2-form .container-2-form-button {
+.container-two .form .form-button {
   min-width: 165px;
   height: 40px;
   display: flex;

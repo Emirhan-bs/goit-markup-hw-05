@@ -459,18 +459,105 @@
         </div>
       </section>
       <!-- Our Portfolio BİTTİ -->
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-container-logo">
+            <a class="footer-logo"
+              >WEB<span class="footer-logo-studio">STUDIO</span></a
+            >
+            <p class="footer-paragraf">
+              Increase the flow of customers and sales for your business with
+              digital marketing &amp;growth solutions.
+            </p>
+          </div>
+          <div class="footer-container-media">
+            <p class="social-media">Social media</p>
+            <ul class="social-media-icon">
+              <li class="social-media-icon-one">
+                <a class="social-media-icon-one-link" href="">
+                  <svg
+                    class="social-media-icon-one-link-one"
+                    width="24"
+                    height="24"
+                  >
+                    <use
+                      href="./images/icons.svg/icons.svg#icon-instagram"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-media-icon-one">
+                <a class="social-media-icon-one-link" href="">
+                  <svg
+                    class="social-media-icon-one-link-one"
+                    width="24"
+                    height="24"
+                  >
+                    <use href="./images/icons.svg/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-media-icon-one">
+                <a class="social-media-icon-one-link" href="">
+                  <svg
+                    class="social-media-icon-one-link-one"
+                    width="24"
+                    height="24"
+                  >
+                    <use
+                      href="./images/icons.svg/icons.svg#icon-facebook"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-media-icon-one">
+                <a class="social-media-icon-one-link" href="">
+                  <svg
+                    class="social-media-icon-one-link-one"
+                    width="24"
+                    height="24"
+                  >
+                    <use
+                      href="./images/icons.svg/icons.svg#icon-linkedin"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="container-two">
+            <p class="subscribe">Subscribe</p>
+            <form class="form">
+              <label class="form-label" for="">
+                <input
+                  class="form-label-input"
+                  type="email"
+                  placeholder="E-posta"
+                />
+              </label>
+              <button class="form-button">
+                Subscribe<svg class="icon icon-frame" width="24" height="24">
+                  <use href="./images/icons.svg/icons.svg#icon-frame"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </footer>
       <!--Modal Bölümü-->
       <div class="modal-window">
         <div class="modal-container">
           <button class="modal-container-button" type="button">
             <svg class="icon-close" width="8" height="8">
-              <use href="/images/icons.svg/icons.svg#icon-close"></use>
+              <use href="./images/icons.svg/icons.svg#icon-close"></use>
             </svg>
           </button>
           <p class="modal-container-paragraf"></p>
           <form class="modal-container-form">
             <div class="modal-container-form-div">
-              <label class="modal-container-form-label" for="user-name" name=""
+              <label class="modal-container-form-label" for="user-name"
                 >Name</label
               >
               <div class="modal-container-form-div-2">
@@ -478,6 +565,7 @@
                   class="modal-container-form-div-2-one"
                   type="text"
                   name="user-name"
+                  id="user-name"
                 />
                 <svg class="icon-person" width="18" height="24">
                   <use href="./images/icons.svg/icons.svg#icon-person"></use>
@@ -485,40 +573,39 @@
               </div>
             </div>
             <div class="modal-container-form-div">
-              <label class="modal-container-form-label" for="user-name" name=""
+              <label class="modal-container-form-label" for="user-phone"
                 >Phone</label
               >
               <div class="modal-container-form-div-2">
                 <input
                   class="modal-container-form-div-2-one"
                   type="text"
-                  name="user-name"
+                  name="user-phone"
+                  id="user-phone"
                 />
-                <svg class="icon-person" width="18" height="24">
+                <svg class="icon-phone" width="18" height="24">
                   <use href="./images/icons.svg/icons.svg#icon-phone"></use>
                 </svg>
               </div>
             </div>
             <div class="modal-container-form-div">
-              <label class="modal-container-form-label" for="user-name" name=""
+              <label class="modal-container-form-label" for="user-email"
                 >Email</label
               >
               <div class="modal-container-form-div-2">
                 <input
                   class="modal-container-form-div-2-one"
                   type="text"
-                  name="user-name"
+                  name="user-email"
+                  id="user-email"
                 />
-                <svg class="icon-person" width="18" height="24">
+                <svg class="icon-email" width="18" height="24">
                   <use href="./images/icons.svg/icons.svg#icon-email"></use>
                 </svg>
               </div>
             </div>
             <div class="modal-container-form-div">
-              <label
-                class="modal-container-form-label"
-                for="user-comment"
-                name=""
+              <label class="modal-container-form-label" for="user-comment"
                 >Comment</label
               >
               <textarea
@@ -537,103 +624,23 @@
                 name="user-privacy"
                 checked
               />
-              <label class="onay-box-label" for="user-privacy"
-                ><span class="onay-box-label-span">
+              <label class="onay-box-label" for="user-privacy">
+                <span class="onay-box-label-span">
                   <svg class="icon-Vector" width="10" height="8">
-                    <use href="./images/icons.svg/icons.svg#icon-Vector"></use>
-                  </svg> </span
-                >I accept the terms and conditions of the
+                    <use href="./images/icons.svg#icon-Vector"></use>
+                  </svg>
+                </span>
+                I accept the terms and conditions of the
                 <a class="onay-box-link" href="">Privacy Policy</a>
               </label>
             </div>
-            <button class="onay-box-button">Send</button>
+            <button class="onay-box-button" type="submit">Submit</button>
           </form>
         </div>
       </div>
-
       <!--Modal Bölümü BİTTİ-->
     </main>
     <!-- Main BİTTİ -->
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-container-logo">
-          <a class="footer-logo"
-            >WEB<span class="footer-logo-studio">STUDIO</span></a
-          >
-          <p class="footer-paragraf">
-            Increase the flow of customers and sales for your business with
-            digital marketing &amp;growth solutions.
-          </p>
-        </div>
-        <div class="footer-container-media">
-          <p class="social-media">Social media</p>
-          <ul class="social-media-icon">
-            <li class="social-media-icon-one">
-              <a class="social-media-icon-one-link" href="">
-                <svg
-                  class="social-media-icon-one-link-one"
-                  width="24"
-                  height="24"
-                >
-                  <use href="./images/icons.svg/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-media-icon-one">
-              <a class="social-media-icon-one-link" href="">
-                <svg
-                  class="social-media-icon-one-link-one"
-                  width="24"
-                  height="24"
-                >
-                  <use href="./images/icons.svg/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-media-icon-one">
-              <a class="social-media-icon-one-link" href="">
-                <svg
-                  class="social-media-icon-one-link-one"
-                  width="24"
-                  height="24"
-                >
-                  <use href="./images/icons.svg/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-media-icon-one">
-              <a class="social-media-icon-one-link" href="">
-                <svg
-                  class="social-media-icon-one-link-one"
-                  width="24"
-                  height="24"
-                >
-                  <use href="./images/icons.svg/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="container-2">
-          <p class="subscribe">Subscribe</p>
-          <form class="container-2-form">
-            <label class="container-2-form-label" for="">
-              <input
-                class="container-2-form-label-input"
-                type="email"
-                placeholder="E-posta"
-              />
-            </label>
-            <button class="container-2-form-button">
-              Subscribe<svg class="icon icon-frame" width="24" height="24">
-                <use href="./images/icons.svg/icons.svg#icon-frame"></use>
-              </svg>
-            </button>
-          </form>
-        </div>
-      </div>
-    </footer>
     <!--Footer BİTTİ-->
   </body>
 </html>
