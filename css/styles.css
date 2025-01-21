@@ -730,17 +730,13 @@ a {
   justify-content: center;
   fill: transparent;
 }
-input:checked + span {
+input[type="checkbox"]:checked + label .onay-box-label-span {
   background-color: #404bbf;
   border: none;
+}
+input[type="checkbox"]:checked + label .onay-box-label-span .icon-vector {
   fill: #f4f4fd;
 }
-input:checked + span {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-}
-
 .modal-window
   .modal-container
   .modal-container-form
