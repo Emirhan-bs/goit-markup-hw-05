@@ -733,7 +733,7 @@ input[type="checkbox"]:checked + label .onay-box-label-span {
   background-color: #404bbf;
   border: none;
 }
-input[type="checkbox"]:checked + label .onay-box-label-span .icon-vector {
+input[type="checkbox"]:checked + label .onay-box-label-span {
   fill: #f4f4fd;
 }
 .modal-window
