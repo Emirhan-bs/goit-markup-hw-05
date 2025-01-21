@@ -852,7 +852,7 @@ input[type="checkbox"]:checked + label .onay-box-label-span svg {
 .modal-container
   .modal-container-form
   .modal-container-form-div
-  .modal-container-form-div-textarea:focus {
+  .modal-container-form-div-com-textarea:focus {
   border-color: #4d5ae5;
 }
 .modal-container
