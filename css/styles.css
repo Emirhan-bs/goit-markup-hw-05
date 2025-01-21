@@ -678,8 +678,8 @@ a {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
   height: 100%;
+  width: 100%;
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -699,6 +699,7 @@ a {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 72px 24px 24px 24px;
   z-index: 101;
+  margin-bottom: 8px;
 }
 .modal-window .modal-container .modal-container-form .onay-box {
   margin-bottom: 24px;
@@ -708,7 +709,7 @@ a {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
+  display: inline-flex;
   gap: 8px;
 }
 .modal-window
@@ -729,13 +730,17 @@ a {
   justify-content: center;
   fill: transparent;
 }
-input[type="checkbox"]:checked + label .onay-box-label-span {
+input:checked + span {
   background-color: #404bbf;
   border: none;
-}
-input[type="checkbox"]:checked + label .onay-box-label-span .icon-vector {
   fill: #f4f4fd;
 }
+input:checked + span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
 .modal-window
   .modal-container
   .modal-container-form
