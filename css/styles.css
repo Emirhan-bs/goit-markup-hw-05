@@ -684,6 +684,7 @@ a {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 100;
+  display: flex;
 }
 .modal-window .modal-container {
   position: absolute;
@@ -699,6 +700,9 @@ a {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 72px 24px 24px 24px;
   z-index: 101;
+  margin-bottom: 8px;
+}
+.modal-window .modal-container .modal-container-form {
   margin-bottom: 8px;
 }
 .modal-window .modal-container .modal-container-form .onay-box {
@@ -824,7 +828,7 @@ input[type="checkbox"]:checked + label .onay-box-label-span svg {
   margin-bottom: 8px;
 }
 .modal-container .modal-container-form .modal-container-form-div {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .modal-container
   .modal-container-form
