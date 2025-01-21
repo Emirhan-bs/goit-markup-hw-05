@@ -825,7 +825,7 @@ input[type="checkbox"]:checked + label .onay-box-label-span svg {
   .modal-container-form-div
   .modal-container-form-div-five {
   position: relative;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .modal-container .modal-container-form .modal-container-form-div {
   margin-bottom: 8px;
