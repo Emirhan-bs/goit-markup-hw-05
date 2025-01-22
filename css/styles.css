@@ -735,6 +735,8 @@ a {
 }
 input:checked + label .onay-box-label-span {
   background-color: #404bbf;
+}
+input:checked + label .onay-box-label-span {
   border: none;
   fill: #f4f4fd;
 }
