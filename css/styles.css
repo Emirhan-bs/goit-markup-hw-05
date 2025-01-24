@@ -9,6 +9,10 @@ body {
   border: 1px solid none;
   z-index: 90;
 }
+:root {
+  --primary-color: #404bbf;
+  --secondary-color: #f4f4fd;
+}
 p,
 h2 {
   color: #434455;
@@ -734,10 +738,10 @@ a {
   justify-content: center;
   fill: transparent;
 }
-input:checked + label .onay-box-label {
-  background-color: #404bbf;
+.checkbox-input:checked + .onay-box-label .onay-box-label-span {
+  background-color: var(--primary-color);
   border: none;
-  fill: #f4f4fd;
+  fill: var(--secondary-color);
 }
 
 .modal-window
