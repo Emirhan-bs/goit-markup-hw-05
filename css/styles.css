@@ -743,7 +743,10 @@ a {
   border: none;
   fill: var(--secondary-color);
 }
-
+.icon-vector {
+  fill: #f4f4fd;
+  border: none;
+}
 .modal-window
   .modal-container
   .modal-container-form
